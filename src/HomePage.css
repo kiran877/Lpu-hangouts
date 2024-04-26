@@ -1,0 +1,102 @@
+/* Add styles for the cart icon */
+.cart-icon-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999; /* Ensure the cart icon is on top of other elements */
+}
+.menu{
+  text-align: center;
+}
+.cart-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Style the cart count */
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items starting from the left */
+  padding-top: 50px;
+}
+
+.product-item {
+  width: 300px; /* Adjusted width for 4 items in a row */
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 15px; /* Changed margin to give equal spacing */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.product-button {
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #ff4500;
+}

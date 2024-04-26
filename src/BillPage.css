@@ -1,0 +1,37 @@
+/* BillPage.css */
+
+.bill-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .bill-items {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .bill-items h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bill-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bill-items li {
+    margin-bottom: 5px;
+  }
+  
+  .bill-items li button {
+    margin-left: 10px;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
