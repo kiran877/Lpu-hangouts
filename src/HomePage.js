@@ -35,7 +35,7 @@ function HomePage() {
   }, []);
 
   useEffect(() => {
-    // Save cart items to localStorage whenever it changes
+    // Save cart items to localStorage whenever it 
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
   }, [cartItems]);
 
