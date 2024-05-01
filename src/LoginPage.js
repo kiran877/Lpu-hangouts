@@ -18,9 +18,12 @@ function LoginPage({ handleLogin }) {
       setError('Invalid username or password');
     }
   };
+  
 
   return (
+    <div className="bodylogin">
     <div className="login-page">
+      
       <div className="login-container">
         <h2>Login Page</h2>
         <form className="login-form" onSubmit={handleSubmit}>
@@ -47,7 +50,7 @@ function LoginPage({ handleLogin }) {
             />
           </div>
           {error && <p className="error">{error}</p>}
-          <Link to="/Home">
+          <Link to="/MenuPage">
             <button type="submit">Login</button>
           </Link>
         </form>
@@ -55,7 +58,10 @@ function LoginPage({ handleLogin }) {
         <Link to="/signup">Sign Up</Link>
       </div>
     </div>
+    </div>
   );
+
+ 
 }
 
 export default LoginPage;

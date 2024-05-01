@@ -1,0 +1,65 @@
+/* SlotPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure the background covers the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+background-size: cover;
+}
+
+/* Styles for the container */
+.book-slot {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Background color for the form */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* Styles for the form elements */
+  .book-slot h2 {
+    font-size: 24px; /* Increase the font size for the heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Add margin below each form group */
+  }
+  
+  label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some space below the label */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%; /* Make the input fields take up the full width */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add a border to the input fields */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  button[type="submit"] {
+    background-color:orange; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
